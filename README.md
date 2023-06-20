@@ -1,5 +1,9 @@
 # Jarvis
 
+
+![image](https://github.com/DonnGregoor69/Jarvis/assets/88169436/df93b31d-8d10-4cfe-a05f-2e8ecc0ba1ed)
+
+
 # One Click Installer for Local LLM Telegram Bot   
 
 This is a one click installer to set up a local Telegram bot powered by a language model. It will:
