@@ -30,7 +30,7 @@ You can obtain a Telegram bot token in less than 30 seconds easily by messaging 
 2. The bot will start installing in your terminal.
 3. Double click the `Start.bat` file.
 4. The bot will start running in your terminal.
-5. Message the bot `@WizardLMbot` on Telegram to start chatting!
+5. Message the bot you created with BotFather `@YourBotName` on Telegram to start chatting!
 
 
 ## Customization
