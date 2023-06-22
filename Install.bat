@@ -1,7 +1,7 @@
 @echo off
 
 REM Settings for variable environments
-set MODEL_URL=https://huggingface.co/TheBloke/WizardLM-7B-uncensored-GGML/resolve/main/WizardLM-7B-uncensored.ggmlv3.q3_K_S.bin
+set MODEL_URL=https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-GGML/resolve/main/Wizard-Vicuna-13B-Uncensored.ggmlv3.q5_K_S.bin
 set BOT_TOKEN=YourBotToken
 set ALLOWED_USERS=@YourTelegram
 echo ENV Settings done!
@@ -14,7 +14,7 @@ echo git cloned successfully!
 
 REM Download model file
 echo Downloading model file...
-powershell -Command "Invoke-WebRequest -Uri '%MODEL_URL%' -OutFile 'model.bin'"
+powershell -Command "Invoke-WebRequest -Uri '%MODEL_URL%' -OutFile 'model.bin' -UseBasicParsing"
 set MODEL_PATH=%cd%\model.bin
 
 
