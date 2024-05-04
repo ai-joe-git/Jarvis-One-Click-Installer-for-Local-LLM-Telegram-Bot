@@ -14,8 +14,8 @@ echo git cloned successfully!
 
 REM Download model file
 echo Downloading model file...
-powershell -Command "Invoke-WebRequest -Uri '%MODEL_URL%' -OutFile 'model.bin' -UseBasicParsing"
-set MODEL_PATH=%cd%\model.bin
+powershell -Command "Invoke-WebRequest -Uri '%MODEL_URL%' -OutFile 'model.gguf' -UseBasicParsing"
+set MODEL_PATH=%cd%\model.gguf
 
 
 
