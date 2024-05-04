@@ -1,13 +1,13 @@
 @echo off
 
 REM Settings for variable environments
-set MODEL_URL=https://huggingface.co/TheBloke/Wizard-Vicuna-13B-Uncensored-GGML/resolve/main/Wizard-Vicuna-13B-Uncensored.ggmlv3.q5_K_S.bin
+set MODEL_URL=https://huggingface.co/bartowski/Hermes-2-Pro-Llama-3-8B-GGUF/resolve/main/Hermes-2-Pro-Llama-3-8B-Q8_0.gguf
 set BOT_TOKEN=YourBotToken
 set ALLOWED_USERS=@YourTelegram
 echo ENV Settings done!
 
 REM Clone git
-git clone https://github.com/DonnGregoor69/llama-telegram-bot.git  
+git clone https://github.com/ai-joe-git/llama-telegram-bot.git  
 cd llama-telegram-bot
 pip install -r requirements.txt
 echo git cloned successfully!
